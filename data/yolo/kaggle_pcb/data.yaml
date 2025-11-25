@@ -1,0 +1,17 @@
+# data/yolo/kaggle_pcb/data.yaml
+# Kaggle PCB Defects YOLOv8 dataset
+
+path: ./data/yolo/kaggle_pcb
+
+train: images/train
+val: images/val
+test: images/test
+
+nc: 6
+names:
+  - missing_hole
+  - mouse_bite
+  - open_circuit
+  - short
+  - spur
+  - spurious_copper

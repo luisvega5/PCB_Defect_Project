@@ -1,0 +1,17 @@
+# data/yolo/deeppcb/data.yaml
+# DeepPCB YOLOv8 dataset description
+
+path: ./data/yolo/deeppcb          # root is the folder containing this yaml
+
+train: images/train
+val: images/val
+test: images/test
+
+nc: 6
+names:
+  - open
+  - short
+  - mousebite
+  - spur
+  - spurious_copper   # DeepPCB calls this "copper"
+  - pin_hole

@@ -1,0 +1,14 @@
+{
+    "yolov8": {
+        "map50": 0.8464369963076929,
+        "map50_95": 0.424484825425372,
+        "project": "runs_yolov8",
+        "train_run_name": "yolov8_pcb_kaggle_pcb",
+        "eval_run_name": "yolov8_pcb_kaggle_pcb_eval"
+    },
+    "cnn": {
+        "best_val_accuracy": 0.24271844660194175,
+        "test_accuracy": 0.13333333333333333,
+        "best_checkpoint": "checkpoints_cnn_kaggle\\best_cnn.pth"
+    }
+}
