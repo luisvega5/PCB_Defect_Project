@@ -25,9 +25,9 @@
 """
 import argparse
 import json
-from train_cnn import train_and_evaluate_cnn
-from train_yolov8 import train_and_evaluate_yolov8
-from dataset_configs import DATASET_CONFIGS
+from train_utils.train_cnn import train_and_evaluate_cnn
+from train_utils.train_yolov8 import train_and_evaluate_yolov8
+from model_configuration.dataset_configs import DATASET_CONFIGS
 """---------------------------------------------------Functions------------------------------------------------------"""
 """ 
     Function Name: parse_args

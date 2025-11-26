@@ -1,0 +1,2 @@
+Model Weights, YOLOv8 and CNN results can be found in
+https://github.com/luisvega5/PCB_Defect_Project
