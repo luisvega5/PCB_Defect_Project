@@ -42,7 +42,7 @@ The requirements.txt file should contain the following libraries:
 * numpy
 * tqdm
 * matplotlib
-2. Go inside the PCB_Defect_Project/utils directory.
+2. Go inside the PCB_Defect_Project directory.
 3. Run the data_preparation/prepare_deeppcb.py script to perform training/testing/validation split (70/15/15) on the DeepPCB dataset:
 ```bash
 py data_preparation/prepare_deeppcb.py
@@ -96,7 +96,7 @@ The requirements.txt file should contain the following libraries:
 * numpy
 * tqdm
 * matplotlib
-2. Go inside the PCB_Defect_Project/utils directory.
+2. Go inside the PCB_Defect_Project directory.
 3. Run the data_preparation/prepare_deeppcb.py script to perform training/testing/validation split (70/15/15) on the DeepPCB dataset:
 ```bash
 python data_preparation/prepare_deeppcb.py
