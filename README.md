@@ -45,11 +45,11 @@ The requirements.txt file should contain the following libraries:
 2. Go inside the PCB_Defect_Project/utils directory.
 3. Run the data_preparation/prepare_deeppcb.py script to perform training/testing/validation split (70/15/15) on the DeepPCB dataset:
 ```bash
-py prepare_deeppcb.py
+py data_preparation/prepare_deeppcb.py
 ```
 4. Run the data_preparation/prepare_kaggle_pcb.py script to perform training/testing/validation split (70/15/15) on the Kaggle PCB dataset:
 ```bash
-py prepare_kaggle_pcb.py
+py data_preparation/prepare_kaggle_pcb.py
 ```
 5. Return to the PCB_Defect_Project directory. Take note that the main script is customizable which means you can run 
 YOLOv8 and/or CNN models, and you can specify where to store the CNN and Yolov8 results. Example:
@@ -97,11 +97,11 @@ The requirements.txt file should contain the following libraries:
 * tqdm
 * matplotlib
 2. Go inside the PCB_Defect_Project/utils directory.
-3. Run the prepare_deeppcb.py script to perform training/testing/validation split (70/15/15) on the DeepPCB dataset:
+3. Run the data_preparation/prepare_deeppcb.py script to perform training/testing/validation split (70/15/15) on the DeepPCB dataset:
 ```bash
 python data_preparation/prepare_deeppcb.py
 ```
-4. Run the prepare_kaggle_pcb.py script to perform training/testing/validation split (70/15/15) on the Kaggle PCB dataset:
+4. Run the data_preparation/prepare_kaggle_pcb.py script to perform training/testing/validation split (70/15/15) on the Kaggle PCB dataset:
 ```bash
 python data_preparation/prepare_kaggle_pcb.py
 ```
